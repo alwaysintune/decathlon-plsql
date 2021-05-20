@@ -1,7 +1,3 @@
-SET SERVEROUTPUT ON;
-
-SET VERIFY OFF;
-
 CREATE OR REPLACE PACKAGE exceptions_pkg IS
     /* EXCEPTIONS */
     ex_bad_init_code CONSTANT PLS_INTEGER := -20001;
